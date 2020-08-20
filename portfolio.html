@@ -1,0 +1,303 @@
+
+          <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <head>
+    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   
+
+  </head>
+  <style>
+    body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Acme", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+background-image: url('https://startbootstrap.github.io/startbootstrap-landing-page/img/bg-showcase-2.jpg');
+  min-height:90%;
+  
+}
+
+.pimg2{
+  background-image:url('https://i.ibb.co/35xBMVs/image2.jpg');
+  min-height:400px;
+
+}
+
+.pimg3{
+  background-image:url('https://i.ibb.co/DGFrfjS/image3.jpg');
+  min-height:400px;
+  
+}
+
+
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+  font-size: 15px;
+  letter-spacing: 1px;  
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:30px;
+  letter-spacing:2px;
+  }
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+
+
+.ptext2{
+  position:absolute;
+  top:10%;
+  width:100%;
+  text-align:center;
+  color:black;
+  font-size:30px;
+  letter-spacing:2px;
+  }
+
+
+
+.ptext3{
+  position:absolute;
+  top:40%;
+  width:100%;
+  text-align:center;
+  color:black;
+  font-size:30px;
+  letter-spacing:2px;
+  }
+
+
+.ptext4{
+  position:absolute;
+  top:25%;
+  width:100%;
+  text-align:center;
+  color:black;
+  font-size:30px;
+  letter-spacing:0px;
+  font-family: Acme;
+  }
+.img1{
+  margin-left:900px;
+}
+#line{
+  font-family:Acme;
+  font-size: 50px;
+}
+
+.bordor {
+  height: 2px;
+  width: 40px;
+  background: #ff9800;
+}
+
+ul {
+  list-style: none;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: Acme;
+  
+}
+
+ul a{
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+ul a:hover {
+  color: #ff9800;
+}
+
+ul li {
+  margin: 10px 0;
+  height: 25px;
+}
+
+li i {
+  margin-right: 20px;
+}
+
+.social-media {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+.social-media i {
+  height: 25px;
+  width: 25px;
+  margin: 20px 5px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid grey;
+  transition: 0.3s;
+}
+.social-media i:hover {
+  background:  #32b5f3;
+}
+
+  </style>
+
+
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        Hi, I'm Aanchal. I'm a web developer.</span>
+        <div class="img1">
+        <img src="self.png"></div>
+      
+    </div>
+  </div>
+
+  <section class="section section-light">
+    
+    <h1 id="line">Objective</h1> <p style="font-size: 25px; font-family:Acme">To work as a web developer in an organisation where I can utilise my skills and work for mutual growth.</p>
+    
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext2">
+      <h2 id="line">Experience</h2>
+       <p style="text-align: left; margin-left: 30px; font-size:25px; letter-spacing: 0px; font-family:Acme"> <b>Web Developer Intern (May 14,2020 - July 14,2020)</b></p>
+        <p style="font-size:25px; text-align: left; margin-left: 20px; letter-spacing: 0px; font-family:Acme">Worked as a web developer where I have to design the website and also plays the role of team lead.</p>
+
+     
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2 id="line">Projects</h2>
+    <p style="text-align: left; font-family:Acme">
+1. Smart calculator<br>
+ The smart calculator in JavaScript which is used for calculations.
+It also recognize the voice of the user and perform the operations and give the desired results.<br>
+Github link: <a href="https://aanchal0023.github.io/smartcalc/">Smart calc</a><br><br>
+2. Food website<br>
+Food website specifically for the pizza where the user can search the favorite pizza. 
+The site is static in working but completely responsive. 
+The idea was to get an experience on websites which are ecommerce based. <br>
+Github link: <a href="https://aanchal0023.github.io/pizzaapp/">Food site</a><br><br>
+3. Animo - the chatBot<br> 
+In this project, there is an chatBot named animo which helps to recognize the mental state of the user by asking questions to the user. And in return, the Bot also give suggestions to reboost the mind of the user. 
+Basically, it's like the virtual Psycatrist. 
+
+
+
+
+    </p>
+  </section>
+
+  <div class="pimg3">
+    <div class="ptext3">
+      <span class="border trans">
+      <a href="https://drive.google.com/file/d/16vr0xCE_NXf1JbCW_FPXTiR2jAKv7nSn/view?usp=sharing" ><h3>View Resume</h3></a>
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h1 id="line">Technology</h1>
+    
+<marquee>
+<img src="html.png" width=10% height=20%>
+<img src="csss3.png" width=10% height=20%>
+<img src="js.png" width=10% height=20%>
+<img src="jq.png" width=10% height=20%>
+<img src="php.png" width=10% height=20%>
+<img src="mysql.jpg" width=10% height=20%>
+<img src="bootstrap.png" width=10% height=20%>
+<img src="laravel.png" width=10% height=20%>
+
+</marquee>
+  </section>
+
+  <div class="pimg1">
+    <div class="ptext4">
+      <span class="border">
+        <h1 id="line">Contact </h1>
+      </span>
+        <div class="bordor"></div>
+  <ul>
+    <li><i class="fa fa-phone" aria-hidden="true"></i>+91 7017782882 </li>
+    <li><i class="fa fa-envelope" aria-hidden="true"></i>aanchal8898@gmail.com</li>
+  </ul>
+  <div class="social-media">
+    <a href="https://www.facebook.com/aanchal0023"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/Aanchal46620929"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.instagram.com/aanchal0023/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/in/aanchal-agarwal-164546139/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    
+  </div>
+</div>
+</div>              
+                  
+                  
+          
+    </div>
+  </div>    
+    
+<div class="hiddendiv common"></div>    
+    
